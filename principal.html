@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="col-5 columnaprincipal">
+                    <div class="row">
+                        <H1>Bienvenido a tu Banco Senseis</H1>
+                    </div>
+                    <div class="row">
+                        <label for="">Cuenta de Kris</label>
+                        <input type="text" name="Cantidad1" id="C1" value="200" disabled>
+                    </div>
+                    <div class="row">
+                        <label for="">Cuenta de Shir</label>
+                        <input type="text" name="Cantidad2" id="C2" value="300" disabled>
+                    </div>
+                    <div class="row">
+                        <label for="">Cuenta de Maui</label>
+                        <input type="text" name="Cantidad3" id="C3" value="200" disabled>
+                    </div>
+                    <div class="row">
+                        <h2>Ingrese la cantidad</h2>
+                        <input type="text" id="cantidad" placeholder="Cantidad" value="0">
+                    </div>
+                    <h2>Que movimiento desea hacer</h2>
+                    <div class="row botonAcciones">
+                        <h2>Transferencias</h2>
+                        <input type="button" value="Transferencia de cuenta de kris" id="bt1" onclick="funcion()" class="buttonPrincipal">
+                        <input type="button" value="Transferencia de cuenta de Shir" id="bt2" onclick="funcion1()" class="buttonPrincipal">
+                        <input type="button" value="Transferencia de cuenta de Maui" id="bt3" onclick="funcion2()" class="buttonPrincipal">
+                    </div>
+                    <div class="row botonAcciones">
+                        <h2>Retiros</h2>
+                        <input type="button" value="Retiro de cuenta de kris" id="bt4" onclick="funcion3()" class="buttonPrincipal">
+                        <input type="button" value="Retiro de cuenta de Shir" id="bt5" onclick="funcion4()" class="buttonPrincipal">
+                        <input type="button" value="Retiro de cuenta de Maui" id="bt6" onclick="funcion5()" class="buttonPrincipal">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="SenseisBank.jpg" alt="" class="imgBank">
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="javascript.js"></script>
+    </body>
+
+</html>
